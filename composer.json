@@ -1,0 +1,42 @@
+{
+    "name": "poodev/poo",
+     "description": "Poo App Starter",
+    "keywords": [
+        "yii2",
+        "poo",
+        "poodev",
+        "framework",
+        "bap",
+        "platform"
+    ],
+    "homepage": "http://www.poodev.com/",
+    "type": "project starter",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/poodev/poo-app/issues?state=open",
+        "forum": "http://www.poodev.com/forum/",
+        "wiki": "http://www.poodev.com/wiki/",
+        "source": "https://github.com/poodev/poo-app"
+    },
+    "authors": [
+        {
+            "name": "Agus Suhartono",
+            "email": "agus.suhartono@gmail.com",
+            "homepage": "http://www.binexa.com/",
+            "role": "Founder and project lead"
+        }
+    ],	
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "poodev/poo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "config": {
+        "process-timeout": 1800
+    }
+}
